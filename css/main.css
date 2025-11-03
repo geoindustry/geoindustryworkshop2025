@@ -156,6 +156,12 @@ nav ol {
 .cfp_topic_item {
   list-style: square;
 }
+.keynote-meta {
+  margin-bottom: 0.3em;   /* reduce bottom spacing under "Speaker" */
+}
+.keynote-item p {
+  margin-top: 0.3em;      /* reduce top margin for abstract paragraph */
+}
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -973,3 +979,4 @@ nav {
     display: none;
   }
 }
+
